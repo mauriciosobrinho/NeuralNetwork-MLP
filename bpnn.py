@@ -1,8 +1,4 @@
 # Back-Propagation Neural Networks
-# 
-# Written in Python.  See http://www.python.org/
-# Placed in the public domain.
-# Neil Schemenauer <nas@arctrix.com>
 
 import math
 import random

@@ -42,13 +42,13 @@ class NeuralNetwork:
 
            for i in range(self.ni):
                sum = 0.0
-               for j in range (self.nh): # por el numero de intradas
+               for j in range (self.nh): # por numero de entradas
                    sum = sum + self.wi[i][j] * self.ai[j]
                self.ah[j] = sigmoid(sum)
                
            for i in range(self.nh):
             sum = 0.0
-    for j in range (self.no): # por el numero de intradas
+    for j in range (self.no): # por numero de entradas
         sum = sum + self.wo[i][j] * self.ai[j]
         self.ao[j] = sigmoid(sum)
               

@@ -1,9 +1,7 @@
 """ 
 Back-Propagation Neural Networks Written in Python.
 
-This is a slightly different version of this http://arctrix.com/nas/python/bpnn.py
 """
-
 import math
 import random
 import string
